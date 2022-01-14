@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF97ADFA2761E534003F32EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97ADF92761E534003F32EF /* AppDelegate.swift */; };
+		CF97ADFC2761E534003F32EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97ADFB2761E534003F32EF /* SceneDelegate.swift */; };
+		CF97ADFE2761E534003F32EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97ADFD2761E534003F32EF /* ViewController.swift */; };
+		CF97AE012761E534003F32EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF97ADFF2761E534003F32EF /* Main.storyboard */; };
+		CF97AE032761E535003F32EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF97AE022761E535003F32EF /* Assets.xcassets */; };
+		CF97AE062761E535003F32EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF97AE042761E535003F32EF /* LaunchScreen.storyboard */; };
+		CF97AE112761E536003F32EF /* TP_Deschamps_JuilletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97AE102761E536003F32EF /* TP_Deschamps_JuilletTests.swift */; };
+		CF97AE1C2761E536003F32EF /* TP_Deschamps_JuilletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97AE1B2761E536003F32EF /* TP_Deschamps_JuilletUITests.swift */; };
+		CF97AE3A2761E70A003F32EF /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97AE392761E70A003F32EF /* Todo.swift */; };
+		CF97AE402761EB25003F32EF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97AE3F2761EB25003F32EF /* TableViewCell.swift */; };
+		CF97AE4527620305003F32EF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97AE4427620305003F32EF /* DetailsViewController.swift */; };
+		CF97AE4A27620A6A003F32EF /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97AE4927620A6A003F32EF /* AddViewController.swift */; };
+		CF9DFD53276CC84B00B5BE50 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DFD52276CC84B00B5BE50 /* TodoList.swift */; };
+		CF9DFD60276CCC1E00B5BE50 /* CategorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DFD5F276CCC1E00B5BE50 /* CategorieViewController.swift */; };
+		CF9DFD65276CCCDD00B5BE50 /* CategorieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DFD64276CCCDD00B5BE50 /* CategorieTableViewCell.swift */; };
+		CF9DFD6A276CF26100B5BE50 /* AddCategorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DFD69276CF26100B5BE50 /* AddCategorieViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF97AE0D2761E536003F32EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF97ADEE2761E534003F32EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF97ADF52761E534003F32EF;
+			remoteInfo = TP_Deschamps_Juillet;
+		};
+		CF97AE182761E536003F32EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF97ADEE2761E534003F32EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF97ADF52761E534003F32EF;
+			remoteInfo = TP_Deschamps_Juillet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF97ADF62761E534003F32EF /* TP_Deschamps_Juillet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP_Deschamps_Juillet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF97ADF92761E534003F32EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF97ADFB2761E534003F32EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF97ADFD2761E534003F32EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF97AE002761E534003F32EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF97AE022761E535003F32EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF97AE052761E535003F32EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF97AE072761E535003F32EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF97AE0C2761E536003F32EF /* TP_Deschamps_JuilletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TP_Deschamps_JuilletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF97AE102761E536003F32EF /* TP_Deschamps_JuilletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP_Deschamps_JuilletTests.swift; sourceTree = "<group>"; };
+		CF97AE122761E536003F32EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF97AE172761E536003F32EF /* TP_Deschamps_JuilletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TP_Deschamps_JuilletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF97AE1B2761E536003F32EF /* TP_Deschamps_JuilletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TP_Deschamps_JuilletUITests.swift; sourceTree = "<group>"; };
+		CF97AE1D2761E536003F32EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF97AE392761E70A003F32EF /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		CF97AE3F2761EB25003F32EF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CF97AE4427620305003F32EF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CF97AE4927620A6A003F32EF /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CF9DFD52276CC84B00B5BE50 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		CF9DFD5F276CCC1E00B5BE50 /* CategorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieViewController.swift; sourceTree = "<group>"; };
+		CF9DFD64276CCCDD00B5BE50 /* CategorieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieTableViewCell.swift; sourceTree = "<group>"; };
+		CF9DFD69276CF26100B5BE50 /* AddCategorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategorieViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF97ADF32761E534003F32EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF97AE092761E536003F32EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF97AE142761E536003F32EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF97ADED2761E534003F32EF = {
+			isa = PBXGroup;
+			children = (
+				CF97ADF82761E534003F32EF /* TP_Deschamps_Juillet */,
+				CF97AE0F2761E536003F32EF /* TP_Deschamps_JuilletTests */,
+				CF97AE1A2761E536003F32EF /* TP_Deschamps_JuilletUITests */,
+				CF97ADF72761E534003F32EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF97ADF72761E534003F32EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF97ADF62761E534003F32EF /* TP_Deschamps_Juillet.app */,
+				CF97AE0C2761E536003F32EF /* TP_Deschamps_JuilletTests.xctest */,
+				CF97AE172761E536003F32EF /* TP_Deschamps_JuilletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF97ADF82761E534003F32EF /* TP_Deschamps_Juillet */ = {
+			isa = PBXGroup;
+			children = (
+				CF97ADF92761E534003F32EF /* AppDelegate.swift */,
+				CF97ADFB2761E534003F32EF /* SceneDelegate.swift */,
+				CF97ADFD2761E534003F32EF /* ViewController.swift */,
+				CF97AE4427620305003F32EF /* DetailsViewController.swift */,
+				CF97ADFF2761E534003F32EF /* Main.storyboard */,
+				CF9DFD69276CF26100B5BE50 /* AddCategorieViewController.swift */,
+				CF9DFD5F276CCC1E00B5BE50 /* CategorieViewController.swift */,
+				CF9DFD64276CCCDD00B5BE50 /* CategorieTableViewCell.swift */,
+				CF9DFD52276CC84B00B5BE50 /* TodoList.swift */,
+				CF97AE4927620A6A003F32EF /* AddViewController.swift */,
+				CF97AE3F2761EB25003F32EF /* TableViewCell.swift */,
+				CF97AE392761E70A003F32EF /* Todo.swift */,
+				CF97AE022761E535003F32EF /* Assets.xcassets */,
+				CF97AE042761E535003F32EF /* LaunchScreen.storyboard */,
+				CF97AE072761E535003F32EF /* Info.plist */,
+			);
+			path = TP_Deschamps_Juillet;
+			sourceTree = "<group>";
+		};
+		CF97AE0F2761E536003F32EF /* TP_Deschamps_JuilletTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF97AE102761E536003F32EF /* TP_Deschamps_JuilletTests.swift */,
+				CF97AE122761E536003F32EF /* Info.plist */,
+			);
+			path = TP_Deschamps_JuilletTests;
+			sourceTree = "<group>";
+		};
+		CF97AE1A2761E536003F32EF /* TP_Deschamps_JuilletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF97AE1B2761E536003F32EF /* TP_Deschamps_JuilletUITests.swift */,
+				CF97AE1D2761E536003F32EF /* Info.plist */,
+			);
+			path = TP_Deschamps_JuilletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF97ADF52761E534003F32EF /* TP_Deschamps_Juillet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF97AE202761E536003F32EF /* Build configuration list for PBXNativeTarget "TP_Deschamps_Juillet" */;
+			buildPhases = (
+				CF97ADF22761E534003F32EF /* Sources */,
+				CF97ADF32761E534003F32EF /* Frameworks */,
+				CF97ADF42761E534003F32EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TP_Deschamps_Juillet;
+			productName = TP_Deschamps_Juillet;
+			productReference = CF97ADF62761E534003F32EF /* TP_Deschamps_Juillet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF97AE0B2761E536003F32EF /* TP_Deschamps_JuilletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF97AE232761E536003F32EF /* Build configuration list for PBXNativeTarget "TP_Deschamps_JuilletTests" */;
+			buildPhases = (
+				CF97AE082761E536003F32EF /* Sources */,
+				CF97AE092761E536003F32EF /* Frameworks */,
+				CF97AE0A2761E536003F32EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF97AE0E2761E536003F32EF /* PBXTargetDependency */,
+			);
+			name = TP_Deschamps_JuilletTests;
+			productName = TP_Deschamps_JuilletTests;
+			productReference = CF97AE0C2761E536003F32EF /* TP_Deschamps_JuilletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF97AE162761E536003F32EF /* TP_Deschamps_JuilletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF97AE262761E536003F32EF /* Build configuration list for PBXNativeTarget "TP_Deschamps_JuilletUITests" */;
+			buildPhases = (
+				CF97AE132761E536003F32EF /* Sources */,
+				CF97AE142761E536003F32EF /* Frameworks */,
+				CF97AE152761E536003F32EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF97AE192761E536003F32EF /* PBXTargetDependency */,
+			);
+			name = TP_Deschamps_JuilletUITests;
+			productName = TP_Deschamps_JuilletUITests;
+			productReference = CF97AE172761E536003F32EF /* TP_Deschamps_JuilletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF97ADEE2761E534003F32EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CF97ADF52761E534003F32EF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CF97AE0B2761E536003F32EF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CF97ADF52761E534003F32EF;
+					};
+					CF97AE162761E536003F32EF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CF97ADF52761E534003F32EF;
+					};
+				};
+			};
+			buildConfigurationList = CF97ADF12761E534003F32EF /* Build configuration list for PBXProject "TP_Deschamps_Juillet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF97ADED2761E534003F32EF;
+			productRefGroup = CF97ADF72761E534003F32EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF97ADF52761E534003F32EF /* TP_Deschamps_Juillet */,
+				CF97AE0B2761E536003F32EF /* TP_Deschamps_JuilletTests */,
+				CF97AE162761E536003F32EF /* TP_Deschamps_JuilletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF97ADF42761E534003F32EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF97AE062761E535003F32EF /* LaunchScreen.storyboard in Resources */,
+				CF97AE032761E535003F32EF /* Assets.xcassets in Resources */,
+				CF97AE012761E534003F32EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF97AE0A2761E536003F32EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF97AE152761E536003F32EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF97ADF22761E534003F32EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF97AE402761EB25003F32EF /* TableViewCell.swift in Sources */,
+				CF9DFD60276CCC1E00B5BE50 /* CategorieViewController.swift in Sources */,
+				CF97ADFE2761E534003F32EF /* ViewController.swift in Sources */,
+				CF97AE4A27620A6A003F32EF /* AddViewController.swift in Sources */,
+				CF9DFD53276CC84B00B5BE50 /* TodoList.swift in Sources */,
+				CF9DFD6A276CF26100B5BE50 /* AddCategorieViewController.swift in Sources */,
+				CF97ADFA2761E534003F32EF /* AppDelegate.swift in Sources */,
+				CF97ADFC2761E534003F32EF /* SceneDelegate.swift in Sources */,
+				CF97AE3A2761E70A003F32EF /* Todo.swift in Sources */,
+				CF97AE4527620305003F32EF /* DetailsViewController.swift in Sources */,
+				CF9DFD65276CCCDD00B5BE50 /* CategorieTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF97AE082761E536003F32EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF97AE112761E536003F32EF /* TP_Deschamps_JuilletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF97AE132761E536003F32EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF97AE1C2761E536003F32EF /* TP_Deschamps_JuilletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF97AE0E2761E536003F32EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF97ADF52761E534003F32EF /* TP_Deschamps_Juillet */;
+			targetProxy = CF97AE0D2761E536003F32EF /* PBXContainerItemProxy */;
+		};
+		CF97AE192761E536003F32EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF97ADF52761E534003F32EF /* TP_Deschamps_Juillet */;
+			targetProxy = CF97AE182761E536003F32EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF97ADFF2761E534003F32EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF97AE002761E534003F32EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF97AE042761E535003F32EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF97AE052761E535003F32EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF97AE1E2761E536003F32EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF97AE1F2761E536003F32EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF97AE212761E536003F32EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TP_Deschamps_Juillet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.TP-Deschamps-Juillet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF97AE222761E536003F32EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TP_Deschamps_Juillet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.TP-Deschamps-Juillet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF97AE242761E536003F32EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TP_Deschamps_JuilletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.TP-Deschamps-JuilletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TP_Deschamps_Juillet.app/TP_Deschamps_Juillet";
+			};
+			name = Debug;
+		};
+		CF97AE252761E536003F32EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TP_Deschamps_JuilletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.TP-Deschamps-JuilletTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TP_Deschamps_Juillet.app/TP_Deschamps_Juillet";
+			};
+			name = Release;
+		};
+		CF97AE272761E536003F32EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TP_Deschamps_JuilletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.TP-Deschamps-JuilletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TP_Deschamps_Juillet;
+			};
+			name = Debug;
+		};
+		CF97AE282761E536003F32EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TP_Deschamps_JuilletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.TP-Deschamps-JuilletUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TP_Deschamps_Juillet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF97ADF12761E534003F32EF /* Build configuration list for PBXProject "TP_Deschamps_Juillet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF97AE1E2761E536003F32EF /* Debug */,
+				CF97AE1F2761E536003F32EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF97AE202761E536003F32EF /* Build configuration list for PBXNativeTarget "TP_Deschamps_Juillet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF97AE212761E536003F32EF /* Debug */,
+				CF97AE222761E536003F32EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF97AE232761E536003F32EF /* Build configuration list for PBXNativeTarget "TP_Deschamps_JuilletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF97AE242761E536003F32EF /* Debug */,
+				CF97AE252761E536003F32EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF97AE262761E536003F32EF /* Build configuration list for PBXNativeTarget "TP_Deschamps_JuilletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF97AE272761E536003F32EF /* Debug */,
+				CF97AE282761E536003F32EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF97ADEE2761E534003F32EF /* Project object */;
+}
